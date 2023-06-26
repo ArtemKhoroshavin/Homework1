@@ -9,7 +9,7 @@ const iPhone = 2007;
 alert(iPhone);
 
 // ЗАДАНИЕ 3
-let userName = 'Брендан Эйх';
+const userName = 'Брендан Эйх';
 alert(userName);
 
 // ЗАДАНИЕ 4
@@ -28,12 +28,12 @@ alert(a%b)
 
 // ЗАДАНИЕ 7
 let num = 1;
-num +=5;
-num -=3;
-num *=7;
-num /=3;
-num +=1;
-num -=1;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num++;
+num--;
 alert(num);
 
 // ЗАДАНИЕ 8
@@ -44,13 +44,13 @@ alert(age);
 let user = {
     nameUser: 'Artem',
     age: 28,
-    isAdmin: 'true', 
+    isAdmin: true, 
 }
 // ЗАДАНИЕ 9.1
-let user[city of residence] = 'Moscow'
+user["city of residence"] = 'Moscow'
 
 // ЗАДАНИЕ 9.2
-let age = 20;
+user.age = 20;
 
 // ЗАДАНИЕ 9.3
 delete user[city of residence] = 'Moscow';
