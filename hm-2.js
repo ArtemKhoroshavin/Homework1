@@ -1,71 +1,78 @@
-// ЗАДАНИЕ 1
-let a = 10;
-alert(a);
-let = 20;
-alert(a);
 
-// ЗАДАНИЕ 2
-const iPhone = 2007;
-alert(iPhone);
-
-// ЗАДАНИЕ 3
-const userName = 'Брендан Эйх';
-alert(userName);
-
-// ЗАДАНИЕ 4
-let a = 10
-let b = 2
-alert(a/b)
-
-// ЗАДАНИЕ 5
-let result = 2 ** 5
-alert(result)
-
-// ЗАДАНИЕ 6
-let a = 9
-let b = 2
-alert(a%b)
-
-// ЗАДАНИЕ 7
-let num = 1;
-num += 5;
-num -= 3;
-num *= 7;
-num /= 3;
-num++;
-num--;
-alert(num);
-
-// ЗАДАНИЕ 8
-let age = prompt('сколько вам лет?');
-alert(age);
-
-// ЗАДАНИЕ 9
-let user = {
-    nameUser: 'Artem',
-    age: 28,
-    isAdmin: true, 
+//ЗАДАНИЕ 1 
+let password = 'пароль';
+let userPassword = prompt('Введите пароль');
+if (userPassword === password) {
+console.log('Пароль введен верно');
+} else {
+console.log('Пароль введен неправильно');
 }
-// ЗАДАНИЕ 9.1
-user["city of residence"] = 'Moscow'
 
-// ЗАДАНИЕ 9.2
-user.age = 20;
+//ЗАДАНИЕ 2 
+let c = 2;
+if(c > 0 && c < 10) {
+console.log("Верно");
+} else {
+console.log("Неверно");
+}
 
-// ЗАДАНИЕ 9.3
-delete user[city of residence] = 'Moscow';
+//ЗАДАНИЕ 3
+let d = 50;
+let e = 120;
+if (d > 100 || e > 100) {
+console.log("Верно");
+} else {
+console.log("Неверно");
+}
 
-// ЗАДАНИЕ 9.4
-let info = prompt("Какую информацию хотите узнать о пользователе?")
-console.log(user[info]);
-alert(user)
+//ЗАДАНИЕ 4 
+let a = '2';
+let b = '3';
+// Код выше изменять менять нельзя, чтобы решить задачу исправьте код ниже: 
+alert(Number(a) + Number(b));
+//или
+alert(2 + 3);
 
-ЗАДАНИЕ 10 
-// ЗАДАНИЕ 10
-let name = prompt('name');
- alert(`Привет,${name}!`);
-
-
-
-
-
+//ЗАДАНИЕ 5
+let monthNumber = 12(prompt('введите номер месяца'))
+switch (monthNumber = 12) {
+  case 'зима':
+    console.log(monthNumber = 1);
+    break;
+  case 'зима':
+    console.log(monthNumber = 2);
+    break;
+  case 'весна':
+    console.log(monthNumber = 3);
+    break;
+  case 'весна':
+    console.log(monthNumber = 4);
+    break;
+  case 'весна':
+    console.log(monthNumber = 5);
+    break;
+  case 'лето':
+    console.log(monthNumber = 6);
+    break;
+  case 'лето':
+    console.log(monthNumber = 7);
+    break;
+  case 'лето':
+    console.log(monthNumber = 8);
+    break;
+  case 'осень':
+    console.log(monthNumber = 9);
+    break;
+  case 'осень':
+    console.log(monthNumber = 10);
+    break;
+  case 'осень':
+    console.log(monthNumber = 11);
+    break;
+  case 'зима':
+    console.log(monthNumber = 12);
+    break;  
+  default:
+    console.log(monthNumber = 13);
+    break;
+}
