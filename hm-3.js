@@ -12,13 +12,14 @@ let number;
 do {
 number = Number (prompt('Введите цифру от 1 до 5'));
 } while (number >=5 );
-
+console.log(number);
 
 // ЗАДАНИЕ 3
 let number = 7;
 do {
 number = Number (prompt('Введите цифру от 7 до 22'));
 } while (number >= 7 && number <= 22);
+console.log(number);
 
 
 // ЗАДАНИЕ 4
@@ -50,7 +51,7 @@ let obj = {
   let date = new Date(2022, 0, day); 
   let dayOfWeek = date.getDay(); 
 
-  if (dayOfWeek == firstFriday || dayOfWeek == firstFriday + 7) {
+  if (dayOfWeek === firstFriday || dayOfWeek === firstFriday + 7) {
     console.log("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет.");
   }
 }
