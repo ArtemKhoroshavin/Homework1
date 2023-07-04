@@ -8,19 +8,27 @@ while (i <= n) {
 
 
 // ЗАДАНИЕ 2
-let number;
+let number = 1;
 do {
 number = Number (prompt('Введите цифру от 1 до 5'));
-} while (number >=5 );
 console.log(number);
+} while (number >=5 );
+
 
 // ЗАДАНИЕ 3
 let number = 7;
 do {
 number = Number (prompt('Введите цифру от 7 до 22'));
+  console.log(number);
+  number++;
 } while (number >= 7 && number <= 22);
-console.log(number);
 
+// ИЛИ НАДО В ТАКОМ ВАРИАНТЕ?
+let number = 7;
+do {
+  console.log(number);
+  number++;
+} while (number <= 22);
 
 // ЗАДАНИЕ 4
 let obj = {
