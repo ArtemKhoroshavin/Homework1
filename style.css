@@ -84,6 +84,48 @@ body {
   box-shadow: 0 0 5px #ccc;
 }
 
+.game {
+  background-color: #000000;
+}
+.game__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #FFFFFF;
+  padding-top: 280px;
+}
+.game__text {
+  font-weight: 300;
+  font-size: 18px;
+  color: #FFFFFF;
+  max-width: 592px;
+  line-height: 32px;
+  padding-top: 32px;
+}
+.game__button {
+  margin-top: 32px;
+  background: #9C0332;
+  border: 1px solid #9C0332;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 234px;
+  height: 48px;
+  color: white;
+  transition: all 0.3s;
+}
+.game__button_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+.game__button:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -111,5 +153,28 @@ body {
   }
   .footer__img {
     width: 343px;
+  }
+  .game {
+    padding-top: 120px;
+  }
+  .game__title {
+    font-size: 32px;
+    text-align: center;
+    line-height: normal;
+    padding-top: 51px;
+  }
+  .game__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .game__action {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 64px;
+  }
+  .game__img {
+    width: 343px;
+    padding-bottom: 85px;
   }
 }/*# sourceMappingURL=style.css.map */

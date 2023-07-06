@@ -74,4 +74,48 @@
     box-shadow: 0 0 5px #ccc
 }
 
+.game {
+  background-color: #000000;
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    padding-top: 280px;
+  }
+  &__text {
+    font-weight: 300;
+    font-size: 18px;
+    color:#FFFFFF;
+    max-width: 592px;
+    line-height: 32px;
+    padding-top: 32px;
+  }
+  &__button {
+    margin-top: 32px;
+    background: #9C0332;
+    border: 1px solid #9C0332;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 234px;
+    height: 48px;
+    color: white;
+    transition: all 0.3s;
+  }
+  &__button_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Montserrat";
+  }
+  &__button:hover {
+    background: #000000;
+    color: #FFFFFF
+  }
+  
+}
+
+
 @import 'mobile';
