@@ -114,8 +114,16 @@
     background: #000000;
     color: #FFFFFF
   }
+  &__img {
+    width: 379px;
+    width: 343px;
+  }
+  &__action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   
 }
-
 
 @import 'mobile';

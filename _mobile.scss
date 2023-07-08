@@ -44,12 +44,18 @@
         }
         &__action {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             padding-bottom: 64px;
+        }
+        &__button {
+            margin-left: 64px;
+            margin-right: 64px;
+            
         }
         &__img {
             width: 343px;
             padding-bottom: 85px;
+            margin-top: 64px;
         }
     }
 }
