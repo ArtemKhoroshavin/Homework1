@@ -1,21 +1,18 @@
-function getSeason(month) {
+function getSeason() {
+
+  let month = prompt(`Введите номер месяца`);
     
-    if (month === 12 || month === 1 || month === 2) {
-      return "Зима";
+    if (month == 12 || month == 1 || month == 2) {
+     alert("Зима");
     } else if (month >= 3 && month <= 5) {
-      return "Весна";
+      alert("Весна");
     } else if (month >= 6 && month <= 8) {
-      return "Лето";
+      alert("Лето");
     } else if (month >= 9 && month <= 11) {
-      return "Осень";
+      alert("Осень");
     } else {
-      return "Неправильный номер месяца";
+      alert("Неправильный номер месяца");
     }
   }
   
   
-  console.log(getSeason(1)); 
-  console.log(getSeason(4)); 
-  console.log(getSeason(7)); 
-  console.log(getSeason(10)); 
-  console.log(getSeason(15));

@@ -60,7 +60,7 @@
     background-color: black;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 64px;
+    padding-bottom: 128px;
 }
 .footer__img {
     width: 379px;
@@ -76,6 +76,10 @@
 
 .game {
   background-color: #000000;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 234px;
   &__title {
     font-weight: 700;
     font-size: 48px;
@@ -120,8 +124,7 @@
   }
   &__action {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
   }
   
 }
