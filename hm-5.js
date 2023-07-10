@@ -1,8 +1,8 @@
 function getSeason() {
 
-  let month = prompt(`Введите номер месяца`);
+  let month = +prompt(`Введите номер месяца`);
     
-    if (month == 12 || month == 1 || month == 2) {
+    if (month === 12 || month === 1 || month === 2) {
      alert("Зима");
     } else if (month >= 3 && month <= 5) {
       alert("Весна");
