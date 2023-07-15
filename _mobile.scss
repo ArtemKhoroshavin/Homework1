@@ -61,5 +61,37 @@
             margin-top: 64px;
         }
     }
+    .New_game {
+        padding-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__title {
+            font-size: 32px;
+            text-align: center;
+            line-height: normal;
+            padding-top: 51px;
+        }
+        &__text {
+            text-align: center;
+            font-size: 14px;
+            line-height: 22px;
+            width: 343px;
+        }
+        &__action {
+            display: flex;
+            flex-direction: column;
+        }
+        &__button {
+            margin-left: 64px;
+            margin-right: 64px;
+            
+        }
+        &__img {
+            width: 343px;
+            padding-bottom: 85px;
+            margin-top: 64px;
+        }
+    }
 }
  
